@@ -10,7 +10,7 @@ import numpy as np
 import pickle
 
 # Loading the saved machine learning model
-loaded_model = pickle.load(open('C:/Users/ASUS/Desktop/Diabetes_Web_App/diabetes_model.pkl', 'rb'))
+loaded_model = pickle.load(open('diabetes_model.pkl', 'rb'))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
